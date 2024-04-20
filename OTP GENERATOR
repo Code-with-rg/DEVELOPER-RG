@@ -1,0 +1,14 @@
+ class OTPgenerator 
+{
+ public static void main(String[] args)
+ {
+  int digit0 = (int)(Math.random() * 10);
+  int digit1 = (int)(Math.random() * 10);
+  int digit2 = (int)(Math.random() * 10);
+  int digit3 = (int)(Math.random() * 10);
+  int digit4 = (int)(Math.random() * 10);
+  int digit5 = (int)(Math.random() * 10);
+  
+  System.out.println("" + digit0 + digit1 + digit2 + digit3 + digit4 +digit5);
+ }
+}
